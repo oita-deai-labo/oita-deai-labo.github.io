@@ -919,7 +919,7 @@ figcaption {
   }
 
   .post-summary {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .social-link-group {
@@ -937,7 +937,14 @@ figcaption {
     line-height: 150%;
   }
 
-  .button-round, .button-round.w--current {
+  .button-round {
+    text-align: left;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 12px;
+  }
+
+  .button-round.w--current {
     font-size: 12px;
   }
 
@@ -949,21 +956,30 @@ figcaption {
     width: 90vw;
   }
 
+  .heading {
+    font-size: 22px;
+  }
+
   .button-2 {
     text-align: left;
   }
 
   .heading-title {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .block-quote {
-    font-size: 12px;
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
   }
 
   .post-content {
     margin-bottom: 10px;
-    font-size: 12px;
+    font-size: 14px;
+  }
+
+  .link-2 {
+    font-size: 22px;
   }
 
   .heading3 {
@@ -975,6 +991,10 @@ figcaption {
     margin-bottom: 0;
     font-size: 18px;
     line-height: 24px;
+  }
+
+  .bold-text-3 {
+    font-size: 20px;
   }
 
   .text-block {

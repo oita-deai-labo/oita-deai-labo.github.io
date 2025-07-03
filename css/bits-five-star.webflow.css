@@ -432,6 +432,10 @@ figcaption {
   line-height: 36px;
 }
 
+.menu-button {
+  display: none;
+}
+
 .section-header {
   text-align: left;
   text-transform: capitalize;
@@ -736,6 +740,45 @@ figcaption {
   font-size: 18px;
 }
 
+.sidebar-column-2 {
+  background-color: var(--khaki);
+  color: #f3f3f3;
+  width: 30%;
+  height: 100%;
+  padding: 50px 40px 40px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.navigation-menu-copy {
+  float: none;
+}
+
+.logo-text-copy {
+  color: #f0f0f0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Open Sans, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+.logo-link-copy {
+  float: none;
+  display: block;
+}
+
+.main-subheading-copy {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 150%;
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   .navigation-bar {
     max-width: none;
@@ -814,6 +857,31 @@ figcaption {
     width: 100%;
     margin-left: 0%;
     padding: 30px 20px;
+  }
+
+  .sidebar-column-2 {
+    width: 100%;
+    padding: 20px;
+    position: static;
+  }
+
+  .navigation-menu-copy {
+    background-color: var(--tan);
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .logo-text-copy {
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  .logo-link-copy {
+    float: left;
+  }
+
+  .main-subheading-copy {
+    margin-top: 0;
   }
 }
 
@@ -905,6 +973,26 @@ figcaption {
     margin-left: 2px;
     margin-right: 2px;
   }
+
+  .sidebar-column-2 {
+    padding: 10px;
+  }
+
+  .navigation-menu-copy {
+    margin-top: 20px;
+  }
+
+  .logo-text-copy {
+    margin-top: 5px;
+  }
+
+  .logo-link-copy {
+    padding-left: 0;
+  }
+
+  .main-subheading-copy {
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -920,6 +1008,7 @@ figcaption {
 
   .post-summary {
     font-size: 14px;
+    line-height: 200%;
   }
 
   .social-link-group {
@@ -971,11 +1060,13 @@ figcaption {
   .block-quote {
     font-family: Open Sans, sans-serif;
     font-size: 14px;
+    line-height: 200%;
   }
 
   .post-content {
     margin-bottom: 10px;
     font-size: 14px;
+    line-height: 200%;
   }
 
   .link-2 {
@@ -1004,6 +1095,16 @@ figcaption {
   .nav-link-2 {
     margin-top: 4px;
     margin-bottom: 4px;
+  }
+
+  .logo-text-copy {
+    font-size: 24px;
+  }
+
+  .main-subheading-copy {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 150%;
   }
 }
 
